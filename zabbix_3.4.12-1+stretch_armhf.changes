@@ -1,0 +1,94 @@
+Format: 1.8
+Date: Mon, 30 Jul 2018 14:36:38 +0300
+Source: zabbix
+Binary: zabbix-agent zabbix-get zabbix-sender zabbix-server-mysql zabbix-server-pgsql zabbix-frontend-php zabbix-proxy-mysql zabbix-proxy-pgsql zabbix-proxy-sqlite3 zabbix-java-gateway
+Architecture: source armhf all
+Version: 1:3.4.12-1+stretch
+Distribution: stable
+Urgency: low
+Maintainer: Koadi Terashima <kodai.terashima@zabbix.com>
+Changed-By: Zabbix Packager <info@zabbix.com>
+Description:
+ zabbix-agent - Zabbix network monitoring solution - agent
+ zabbix-frontend-php - Zabbix network monitoring solution - PHP front-end
+ zabbix-get - Zabbix network monitoring solution - get
+ zabbix-java-gateway - Zabbix network monitoring solution - java-gateway
+ zabbix-proxy-mysql - Zabbix network monitoring solution - proxy (MySQL)
+ zabbix-proxy-pgsql - Zabbix network monitoring solution - proxy (PostgreSQL)
+ zabbix-proxy-sqlite3 - Zabbix network monitoring solution - proxy (SQLite3)
+ zabbix-sender - Zabbix network monitoring solution - sender
+ zabbix-server-mysql - Zabbix network monitoring solution - server (MySQL)
+ zabbix-server-pgsql - Zabbix network monitoring solution - server (PostgreSQL)
+Changes:
+ zabbix (1:3.4.12-1+stretch) stable; urgency=low
+ .
+   * update to 3.4.12
+Checksums-Sha1:
+ 5e8b2ff46f09ea890e77cba9e75d3c4a8b1284f3 1776 zabbix_3.4.12-1+stretch.dsc
+ 1d01709ee525df6c95a94b4a768d5f9772b3b493 17509251 zabbix_3.4.12.orig.tar.gz
+ 3f245e4ac6820def1ff5960b1c885eb1d7d5a149 9576 zabbix_3.4.12-1+stretch.debian.tar.xz
+ 5b5ee25d6a5648d9d1c7d869f9026093bd1d0eb2 415208 zabbix-agent-dbgsym_3.4.12-1+stretch_armhf.deb
+ ddea5304d906f23e1e6ec5479985510253920e1c 370346 zabbix-agent_3.4.12-1+stretch_armhf.deb
+ 518897c9b6131f47a7eaf626a61910ea9bbf5340 2337980 zabbix-frontend-php_3.4.12-1+stretch_all.deb
+ 19a8edaae11dea8914e6c7f1d720b85b99326ff9 130778 zabbix-get-dbgsym_3.4.12-1+stretch_armhf.deb
+ fa7170482f11fbab3647396eacf493542adf01c7 281000 zabbix-get_3.4.12-1+stretch_armhf.deb
+ 8957c25ed1daec271f207f59b6515b6abbeee2aa 786008 zabbix-java-gateway_3.4.12-1+stretch_all.deb
+ 7bae2c87fb7b7f1d936cc000bd8af69e6c5c837c 1131040 zabbix-proxy-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ b0cb83af6386cac82e59af0f48bbf149b9f2bb81 613384 zabbix-proxy-mysql_3.4.12-1+stretch_armhf.deb
+ 67d65a2d68d23ff965fd4c3e28381e5630e20adb 1129826 zabbix-proxy-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 6be07340e40b43c4bc19d9df04f633bc38faaaac 613084 zabbix-proxy-pgsql_3.4.12-1+stretch_armhf.deb
+ 10f2b0612945f930bd9e78782d5b4c9f4bd1f0fd 1057260 zabbix-proxy-sqlite3-dbgsym_3.4.12-1+stretch_armhf.deb
+ 1233078b25eb4ce621e1ae0bcf631a865911f921 593430 zabbix-proxy-sqlite3_3.4.12-1+stretch_armhf.deb
+ f26405f72390d76e757cef2cc78a6efd1e1a4fb8 150264 zabbix-sender-dbgsym_3.4.12-1+stretch_armhf.deb
+ cde65eb40aec403967e21d5df73a2b5e56bd36dc 290310 zabbix-sender_3.4.12-1+stretch_armhf.deb
+ aacab48ba31859988148005e31ce5c4f2462d76a 1465918 zabbix-server-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 21df87025a548328dc8e96b3d3927123bb6af8bb 1968272 zabbix-server-mysql_3.4.12-1+stretch_armhf.deb
+ aab16e5b627eceab2c086c652be665faafc0d5a2 1464434 zabbix-server-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 7d6b21758cd62d0a5946c531ddad8ec05eba30ea 1966040 zabbix-server-pgsql_3.4.12-1+stretch_armhf.deb
+ 3ffe6171963d5e4b3efd452fdcaa44a4d4ab3815 13583 zabbix_3.4.12-1+stretch_armhf.buildinfo
+Checksums-Sha256:
+ fb462e4774434b644b67a41fb02109f228c27e398bf953f17b32fce64002959e 1776 zabbix_3.4.12-1+stretch.dsc
+ d7e55b2be8ea69921f18bc7f08bdd7d1b87c268513286f46286744bf4da729fe 17509251 zabbix_3.4.12.orig.tar.gz
+ 68b0709ca78d6692c53392dc62e92f5b5012e0cc91598e1598d443e6719ea309 9576 zabbix_3.4.12-1+stretch.debian.tar.xz
+ 66bd6cf739075cc8872a89a5640ddaefca9ae2457c56658a36c7b7399dd1efbd 415208 zabbix-agent-dbgsym_3.4.12-1+stretch_armhf.deb
+ 0ebdcbeaf3357a34969973a377d074178cb197f9e0c118e68c156acadc6e5a90 370346 zabbix-agent_3.4.12-1+stretch_armhf.deb
+ 176f446ee8241c96c09b3cbf8f05b86c58dbb7908c8ce2749481c51ecc03d787 2337980 zabbix-frontend-php_3.4.12-1+stretch_all.deb
+ 0447dfb7af187d990764e86c13ac27f1c5240f878ee5c9d10f53261df32e2165 130778 zabbix-get-dbgsym_3.4.12-1+stretch_armhf.deb
+ 24c40ef331812f8713828fe29c592ada7f61583d9bfcaefb460b2eab79b4915d 281000 zabbix-get_3.4.12-1+stretch_armhf.deb
+ a9949a163f8957d48d96d769951b2575fadfc4b05f224cd87f24cde7d4780760 786008 zabbix-java-gateway_3.4.12-1+stretch_all.deb
+ e6a8fe1bb5825e14ac57e5b5abfe27a286d2a8cdde1204838e7df674c7065e83 1131040 zabbix-proxy-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 92e5c5e7c67a88dcd8842f194200cda0bff68d8085aa659331b948379945357e 613384 zabbix-proxy-mysql_3.4.12-1+stretch_armhf.deb
+ 73385a111eafd536104c51b9151e588f22f2156a46caebf8d8a103cc4a86285b 1129826 zabbix-proxy-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 4a33b1a7bfb9bf568506e7bf7b3bb303c95e74b66cae228d115324936745baad 613084 zabbix-proxy-pgsql_3.4.12-1+stretch_armhf.deb
+ 96476ce8d106c514be626edf1683b8f355ec2a45cd3fa6c47f59d3f915068447 1057260 zabbix-proxy-sqlite3-dbgsym_3.4.12-1+stretch_armhf.deb
+ 33ae3f8a0d782a7651141f42d687a6f80ab6a8d49d59115ab5d761a50f2acf6e 593430 zabbix-proxy-sqlite3_3.4.12-1+stretch_armhf.deb
+ 14f8c7f1c3a9c359d41ec596fd01655623cc27b9f7b7c0e99bef5208e98a65a8 150264 zabbix-sender-dbgsym_3.4.12-1+stretch_armhf.deb
+ 8f967cf18997de29ff25bd5ae6ac9d11d975a87ab05b474f95080ef059b6717e 290310 zabbix-sender_3.4.12-1+stretch_armhf.deb
+ fbd3a2fd9eb699955eed59046d282d2af40fd3380cb9902576c88892793fa80b 1465918 zabbix-server-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 3f4b95bc2d58930b4a56a7d145b363648aa0621a29d171ece42e18521fd829e7 1968272 zabbix-server-mysql_3.4.12-1+stretch_armhf.deb
+ e1a8de0c34f3405587e883a33a16299bad0ab484184f6e0b20babd7e9667d9b8 1464434 zabbix-server-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ c579853a04432e34f3ce3cfd87924cb1ec3f47d5737f38fe6b1ed162f2d7716a 1966040 zabbix-server-pgsql_3.4.12-1+stretch_armhf.deb
+ 1ce854d4cb3b799687eabeeff17840065675fac0fa0027e156752065222d71a5 13583 zabbix_3.4.12-1+stretch_armhf.buildinfo
+Files:
+ 183bdbf2b0743cb9db8a0c03d9112595 1776 net optional zabbix_3.4.12-1+stretch.dsc
+ 7c44595b19076d78922cc2922816e547 17509251 net optional zabbix_3.4.12.orig.tar.gz
+ 0d952a8b9a13db8d0cdc7634d17990e6 9576 net optional zabbix_3.4.12-1+stretch.debian.tar.xz
+ 6d9ace91a5fc8cdd6e037f651e616c9e 415208 debug extra zabbix-agent-dbgsym_3.4.12-1+stretch_armhf.deb
+ 2f9d1e86be593d4187ac9f01f07c5cb0 370346 net optional zabbix-agent_3.4.12-1+stretch_armhf.deb
+ a9b8efdd6b85f4877525cc45619d7118 2337980 net optional zabbix-frontend-php_3.4.12-1+stretch_all.deb
+ 179314dbdf64bf97e750aef10ce1782a 130778 debug extra zabbix-get-dbgsym_3.4.12-1+stretch_armhf.deb
+ 01d77c8ebedf5bfdab8868d758a5c916 281000 net optional zabbix-get_3.4.12-1+stretch_armhf.deb
+ 68231914bed90c7cfa9feb566a9da567 786008 net optional zabbix-java-gateway_3.4.12-1+stretch_all.deb
+ 8e0ea99c21f6ee1f3d1f68fff9565076 1131040 debug extra zabbix-proxy-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 426ddd4dc43ae34ad1411d0f981f9c2c 613384 net optional zabbix-proxy-mysql_3.4.12-1+stretch_armhf.deb
+ 3593bc38b79f0fa779e9bedeb06b3206 1129826 debug extra zabbix-proxy-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ bae0783d253e0d00348e80928deec68d 613084 net optional zabbix-proxy-pgsql_3.4.12-1+stretch_armhf.deb
+ 0e24633dee0e70660f7a383dca97bf39 1057260 debug extra zabbix-proxy-sqlite3-dbgsym_3.4.12-1+stretch_armhf.deb
+ a465fe377e0cac6e671f5fbd95fdf72c 593430 net optional zabbix-proxy-sqlite3_3.4.12-1+stretch_armhf.deb
+ b226448532e074e7bef296fee74421b5 150264 debug extra zabbix-sender-dbgsym_3.4.12-1+stretch_armhf.deb
+ 4ee0dbb9d5a0dfa81002ae4a25845022 290310 net optional zabbix-sender_3.4.12-1+stretch_armhf.deb
+ 5e04bb83c29b8871ed37c17493a68610 1465918 debug extra zabbix-server-mysql-dbgsym_3.4.12-1+stretch_armhf.deb
+ 479994e8d45eed492361efb85bc4f28a 1968272 net optional zabbix-server-mysql_3.4.12-1+stretch_armhf.deb
+ 57be4c9aec4294643ca41384262058ca 1464434 debug extra zabbix-server-pgsql-dbgsym_3.4.12-1+stretch_armhf.deb
+ a563bc12247fb2ec75f705977239766a 1966040 net optional zabbix-server-pgsql_3.4.12-1+stretch_armhf.deb
+ 2804059febdcc191b8c1a21e559820b1 13583 net optional zabbix_3.4.12-1+stretch_armhf.buildinfo
