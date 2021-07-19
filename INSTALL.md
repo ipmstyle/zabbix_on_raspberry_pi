@@ -5,7 +5,8 @@
 ### 1) Install
 
 ```
-sudo dpkg –i zabbix-agent_3.4.12-1+stretch_armhf.deb
+sudo apt udpate
+sudo apt install zabbix-agent
 ```
 
 ### 2) Configuration
