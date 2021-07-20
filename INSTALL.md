@@ -5,6 +5,8 @@
 ### 1) Install
 
 ```
+wget https://repo.zabbix.com/zabbix/5.0/raspbian/pool/main/z/zabbix-release/zabbix-release_5.0-1+buster_all.deb
+sudo dpkg -i zabbix-release_5.0-1+buster_all.deb
 sudo apt udpate
 sudo apt install zabbix-agent
 ```
